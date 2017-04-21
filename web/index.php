@@ -1,3 +1,14 @@
+<?php
+  session_start();
+    $msg=" ";
+  if (isset($_SESSION['username']))
+  {
+    header('Location: home.php');
+  }
+  else {
+//    include 'Permission.php';
+  }
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,56 +16,30 @@
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="shortcut icon" href="assets/images/favicon_1.ico">
 
-        <title>Minton - Responsive Admin Dashboard Template</title>
+        <title>Campus Assistance</title>
 
-        <link href="http://localhost/CampBot/web/assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
-        <link href="http://localhost/CampBot/web/assets/plugins/jquery-circliful/css/jquery.circliful.css" rel="stylesheet" type="text/css" />
+        <link href="assets/plugins/switchery/switchery.min.css" rel="stylesheet" />
+        <link href="assets/plugins/jquery-circliful/css/jquery.circliful.css" rel="stylesheet" type="text/css" />
 
-        <link href="http://localhost/CampBot/web/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        <!--link href="http://localhost/CampBot/web/assets/css/core.css" rel="stylesheet" type="text/css"-->
-        <link href="http://localhost/CampBot/web/assets/css/icons.css" rel="stylesheet" type="text/css">
-        <link href="http://localhost/CampBot/web/assets/css/components.css" rel="stylesheet" type="text/css">
-        <link href="http://localhost/CampBot/web/assets/css/pages.css" rel="stylesheet" type="text/css">
-        <link href="http://localhost/CampBot/web/assets/css/menu.css" rel="stylesheet" type="text/css">
-        <link href="http://localhost/CampBot/web/assets/css/responsive.css" rel="stylesheet" type="text/css">
-        <link href="http://localhost/CampBot/web/assets/css/chat_custom.css" rel="stylesheet" type="text/css">
-        <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"-->
-        <script src="http://localhost/CampBot/web/assets/js/chat_custom.js"></script>
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <!--link href="http://localhost/CampBot-web/web/assets/css/core.css" rel="stylesheet" type="text/css"-->
+        <link href="assets/css/icons.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/components.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/pages.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/responsive.css" rel="stylesheet" type="text/css">
+        <link href="assets/css/chat_custom.css" rel="stylesheet" type="text/css">
+        <script src="assets/js/chat_custom.js"></script>
 
-        <!--script src="http://localhost/CampBot/web/assets/js/modernizr.min.js"></script-->
-        <!--script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <script src="assets/js/modernizr.min.js"></script>
 
-            ga('create', 'UA-72255993-1', 'auto');
-            ga('send', 'pageview');
-        </script-->
-
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-
-        
     </head>
     <style type="text/css">
         body {
-/*            background-image: url(assets/images/login.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            -webkit-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;
-            -o-background-size: cover;
- */
             width: 100%;
             height: auto;
             overflow: hidden;
-            background-image: url(http://localhost/CampBot/web/assets/images/loginAreaGr.jpg);
+            background-image: url(assets/images/loginAreaGr.jpg);
             background-repeat: repeat-x;
             overflow: hidden;
             -webkit-background-size: cover;
@@ -73,7 +58,7 @@
                 <!-- LOGO -->
                 <div class="topbar-left">
                     <div class="text-right">
-                        <p class="logo"><i class="md md-equalizer"></i> <span>Total Campus Solution</span> </p>
+                        <p class="logo"><i class="md md-equalizer"></i> <span>Campus Assistance</span> </p>
                     </div>
                 </div>
 
@@ -91,19 +76,52 @@
             <div class="text-center">
                 <p href="index.html" class="logo-lg"><i class="md md-equalizer"></i> <span>Login</span> </p>
             </div>
+<?php
+    if($_SERVER['REQUEST_METHOD'] == "POST") 
+    {
+        if (!empty($_POST['Username']))
+        {      
+            $con = mysqli_connect("localhost","admin","admin","campbot") or die('Unable to connect to database');
+            $username = $_POST['Username'];
+            $password = $_POST['Password'];
+            $query = "SELECT * FROM tbl_users WHERE username = '$username' AND password = '$password'";
+            $result = mysqli_query($con, $query);
+            $count = mysqli_num_rows($result);
+            while ($data = mysqli_fetch_assoc($result)) {
+                    $_SESSION['name'] = $data['name'];
+                    $_SESSION['gender'] = $data['gender'];
+                    $_SESSION['addmission_no'] = $data['add_no'];
+                    $_SESSION['register_no'] = $data['regno']
+            }
 
-            <form class="form-horizontal m-t-20" action="index.html">
+            if ($count == 1)
+            {
+//                echo $username;
+                $_SESSION['username'] = $username;
+                $_SESSION['password'] = $password;
+                header('Location: home.php');
+            }
+            else
+            {
+                header('Location: index.php');
+                $msg = "Incorrect credentials";            
+            }
+        } 
+    } 
+        ?>
+            <form class="form-horizontal m-t-20" method="POST" action="">
 
                 <div class="form-group">
+                    <center><h4 style="color: Red"><?php if($msg) echo $msg; ?></h4></center>
                     <div class="col-xs-12">
-                        <input class="form-control" type="text" required="" placeholder="Username">
+                        <input class="form-control" name="Username" type="text" required="" placeholder="Username">
                         <i class="md md-account-circle form-control-feedback l-h-34"></i>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <div class="col-xs-12">
-                        <input class="form-control" type="password" required="" placeholder="Password">
+                        <input class="form-control" name="Password" type="password" required="" placeholder="Password">
                         <i class="md md-vpn-key form-control-feedback l-h-34"></i>
                     </div>
                 </div>
@@ -129,17 +147,14 @@
 
                 <div class="form-group m-t-30">
                     <div class="col-sm-7">
-                        <a href="pages-recoverpw.html" class="text-muted"><i class="fa fa-lock m-r-5"></i> Forgot your
-                            password?</a>
-                    </div>
-                    <div class="col-sm-5 text-right">
-                        <a href="pages-register.html" class="text-muted">Create an account</a>
+                        <a href="pages-recoverpw.html" class="text-muted"><i class="fa fa-lock m-r-5"></i> Forgot your password?</a>
                     </div>
                 </div>
             </form>
         </div>
+
+        <!-- CHAT -->
 <div class="chat_box" id="chat">
-          <!-- CHAT -->
                                 <div class="card-box">
   <div class="chatheader" onclick='showhidechat()'>CampBot
   </div>
@@ -148,46 +163,17 @@
                                         <ul class="conversation-list nicescroll">
                                             <li class="clearfix">
                                                 <div class="chat-avatar">
-                                                    <img src="assets/images/avatar-1.jpg" alt="male">
-                                                    <i>10:00</i>
+                                                    <img src="assets/images/users/avatar-0.png" alt="Female">
+                                                    <i>Now</i>
                                                 </div>
                                                 <div class="conversation-text">
                                                     <div class="ctext-wrap">
-                                                        <i>John Deo</i>
-                                                        <p>
-                                                            Hello!
-                                                        </p>
+                                                        <i>Bot</i>
+                                                        <p>What can I do for you?</br>Install Android App for more Information.</p>
                                                     </div>
                                                 </div>
                                             </li>
-                                            <li class="clearfix odd">
-                                                <div class="chat-avatar">
-                                                    <img src="assets/images/users/avatar-5.jpg" alt="Female">
-                                                    <i>10:01</i>
-                                                </div>
-                                                <div class="conversation-text">
-                                                    <div class="ctext-wrap">
-                                                        <i>Smith</i>
-                                                        <p>
-                                                            Hi, How are you? What about our next meeting?
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="clearfix">
-                                                <div class="chat-avatar">
-                                                    <img src="assets/images/avatar-1.jpg" alt="male">
-                                                    <i>10:01</i>
-                                                </div>
-                                                <div class="conversation-text">
-                                                    <div class="ctext-wrap">
-                                                        <i>John Deo</i>
-                                                        <p>
-                                                            Yeah everything is fine
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
+
                                         </ul>
                                         <div class="row">
                                             <div class="col-sm-9 chat-inputbar">
@@ -202,83 +188,6 @@
 </div>
                        <!-- end col--> 
 </div>
-          <!-- CHAT ->
-                            <div class="col-lg-4">
-                                <div class="card-box">
-                                    <h4 class="m-t-0 m-b-20 header-title"><b>Chat</b></h4>
-
-                                    <div class="chat-conversation">
-                                        <ul class="conversation-list nicescroll">
-                                            <li class="clearfix">
-                                                <div class="chat-avatar">
-                                                    <img src="assets/images/avatar-1.jpg" alt="male">
-                                                    <i>10:00</i>
-                                                </div>
-                                                <div class="conversation-text">
-                                                    <div class="ctext-wrap">
-                                                        <i>John Deo</i>
-                                                        <p>
-                                                            Hello!
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="clearfix odd">
-                                                <div class="chat-avatar">
-                                                    <img src="assets/images/users/avatar-5.jpg" alt="Female">
-                                                    <i>10:01</i>
-                                                </div>
-                                                <div class="conversation-text">
-                                                    <div class="ctext-wrap">
-                                                        <i>Smith</i>
-                                                        <p>
-                                                            Hi, How are you? What about our next meeting?
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="clearfix">
-                                                <div class="chat-avatar">
-                                                    <img src="assets/images/avatar-1.jpg" alt="male">
-                                                    <i>10:01</i>
-                                                </div>
-                                                <div class="conversation-text">
-                                                    <div class="ctext-wrap">
-                                                        <i>John Deo</i>
-                                                        <p>
-                                                            Yeah everything is fine
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                            <li class="clearfix odd">
-                                                <div class="chat-avatar">
-                                                    <img src="assets/images/users/avatar-5.jpg" alt="male">
-                                                    <i>10:02</i>
-                                                </div>
-                                                <div class="conversation-text">
-                                                    <div class="ctext-wrap">
-                                                        <i>Smith</i>
-                                                        <p>
-                                                            Wow that's great
-                                                        </p>
-                                                    </div>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                        <div class="row">
-                                            <div class="col-sm-9 chat-inputbar">
-                                                <input type="text" class="form-control chat-input" placeholder="Enter your text">
-                                            </div>
-                                            <div class="col-sm-3 chat-send">
-                                                <button type="submit" class="btn btn-md btn-primary btn-block waves-effect waves-light">Send</button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div> 
-                        <!-- end col--> 
 
     	<script>
             var resizefunc = [];
@@ -295,10 +204,14 @@
         <script src="assets/js/wow.min.js"></script>
         <script src="assets/js/jquery.nicescroll.js"></script>
         <script src="assets/js/jquery.scrollTo.min.js"></script>
-
+        <script src="assets/plugins/switchery/switchery.min.js"></script>
+        <!-- chatjs  -->
+        <script src="assets/pages/jquery.chat.js"></script>
         <!-- Custom main Js -->
         <script src="assets/js/jquery.core.js"></script>
         <script src="assets/js/jquery.app.js"></script>
-	
+        <!-- Moment  -->
+        <script src="assets/plugins/moment/moment.js"></script>
+
 	</body>
 </html>

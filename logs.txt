@@ -1,0 +1,121 @@
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : AISWARYA  ROY<br>Roll no  : 13019912<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : AJAY  DAVIS<br>Roll no  : 13019915<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : AKASH  GIBY<br>Roll no  : 13019918<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : AKHIL  JOSE<br>Roll no  : 13019919<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : AKHIL  JOSE<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : AKHIL  MATHEW<br>Roll no  : 13019921<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : AMAL  MURALI<br>Roll no  : 13019925<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : ANCY  ABRAHAM<br>Roll no  : 13019927<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : ANILA  JOJO<br>Roll no  : 13019929<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : ANITA  ANN<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : ANJU  MARY<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : ANN  MARY<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : ANNA  ROSE<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : ANSA  KURIAKOSE<br>Roll no  : 13019939<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : ANSTIN  BABU<br>Roll no  : 13019940<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : ANU  MOHAN<br>Roll no  : 13019942<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : ANU  RANI<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : ARUN  V<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : ASHWATHY  BABU<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : AUGUSTINE  JOHNY<br>Roll no  : 13019947<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : AUGUSTINE  JOSE<br>Roll no  : 13019948<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : BENILA  P<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : BESTIN  PAUL<br>Roll no  : 13019950<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : CHRIS  ABY<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : DENNIS  K<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : DIL  JOSE<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : DILSY  MARIAM<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : GOPIKA  K<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : GREESHMA  JEMINI<br>Roll no  : 13019964<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : JACQUILINE  JOY<br>Roll no  : 13019967<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : JISSA  JAMES<br>Roll no  : 13019971<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : JOFFY  GEORGE<br>Roll no  : 13019973<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : JOHAN  VARGHESE<br>Roll no  : 13019974<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : JOMIN  V<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : JOSE  THANKACHAN<br>Roll no  : 13019979<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : KAJOL  M<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : KIRAN  TOMY<br>Roll no  : 13019981<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : MAREENA  MATHEW<br>Roll no  : 13019984<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : MAZHAR  ANSARI<br>Roll no  : 13019987<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : MINTU  MATHEW<br>Roll no  : 13019991<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : MONICA  FRANCIS<br>Roll no  : 13019993<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : NAMITHA  PAUL<br>Roll no  : 13019994<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : NEGITTA  NIXON<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : NIYA  CLARA<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : PARVATHY  S<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : PRAVEEN  G<br>Roll no  : 13020007<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : No  :<br>Roll no  : :<br> Total : 50<br> Remarks : 96
+<br><h2> Name : REENU  JOSE<br>Roll no  : 13020009<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : RIZ  MARY<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : ROBIN  JOSEPH<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : No  :<br>Roll no  : :<br> Total : 40<br> Remarks : 76
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : SEBIN  PAUL<br>Roll no  : 13020016<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : SEBIN  SUNNY<br>Roll no  : 13020017<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : SHONE  MARY<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : SREELAKSHMI  R<br>Roll no  : 13020023<br> Total : Information<br> Remarks : Technology
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : THELLY  AMAL<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name :   <br>Roll no  : <br> Total : <br> Remarks : 
+<br><h2> Name : TOM  GEORGE<br>Roll no  : 13020027<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : TREESA  MARY<br>Roll no  : :<br> Total : and<br> Remarks : Information
+<br><h2> Name : VARUN  DINESHAN<br>Roll no  : 13020029<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : VENKITAKRISHNAN  V<br>Roll no  : 13020030<br> Total : Information<br> Remarks : Technology
+<br><h2> Name : AKHIL  JOSE<br>Roll no  : 13019919<br> Total : Information<br> Remarks : Technology
